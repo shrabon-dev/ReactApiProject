@@ -1,0 +1,14 @@
+.navbar{
+    background: #222121;
+    padding:20px 0;
+}
+li{
+    display: inline-block;
+    padding: 0 20px;
+}
+ul li a{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00cc77;
+}

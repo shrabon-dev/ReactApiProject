@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background: #1a1919;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+li{
+  list-style: none;
+}
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.container{
+  max-width: 1420px;
+  margin: 0 auto;
+}
