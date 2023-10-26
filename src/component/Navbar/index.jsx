@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import logo from '../../assets/react.svg'
 
 export default function Navbar() {
   return (
@@ -11,8 +12,7 @@ export default function Navbar() {
                 {/* logo start */}
                 <div className="logo">
                     <picture>
-                        {/* <img src="" alt="logo" /> */}
-                        LOGO
+                        <img src={logo} alt="logo" />
                     </picture>
                 </div>
                 {/* menus start */}
@@ -25,7 +25,9 @@ export default function Navbar() {
                 </ul>
                 {/* button start */}
                 <div className="button">
-                    <a href="#">Sign up</a>
+                    <picture>
+                        <img src={logo} alt="logo" />
+                    </picture>
                 </div>
             </div>
         </div>
