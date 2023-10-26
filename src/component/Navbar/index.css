@@ -1,6 +1,7 @@
 .navbar{
-    background: #222121;
+    background: #222121ad;
     padding:20px 0;
+    backdrop-filter: blur(10px);
 }
 li{
     display: inline-block;

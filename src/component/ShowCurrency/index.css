@@ -1,7 +1,7 @@
 .card{
     width: 50%;
     height: 500px;
-    background: #2b2a2a;
+    background: #2b2a2ab2;
     margin-top: 200px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -10,6 +10,7 @@
     -o-border-radius: 10px;
     border: 1px solid #00cc7775;
     padding: 50px;
+    backdrop-filter: blur(10px);
 }
 .empty{
     text-align: center;

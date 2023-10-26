@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './index.css'
 import axios from 'axios'
 import { SiConvertio } from 'react-icons/si'
-
 import { useGlobalContext } from '../../Context'
 
 export default function Currency() {
@@ -14,15 +13,11 @@ export default function Currency() {
   let [currencyAmount, setCurrencyAmount] = useState()
   let key = '206ab30a2bmsh87a0c70843356cep120b44jsn79910dcb1e74';
 
-
-
   useEffect(()=>{
     const fetchData = async () =>{
       let currencyListURL = 'https://currency-conversion-and-exchange-rates.p.rapidapi.com/symbols';
 
-
       // Fetch Data Using Only Fetch
-
       try{
           const response = await axios.get(`${currencyListURL}?rapidapi-key=${key}`);
           const data = await response.data;
@@ -63,11 +58,8 @@ export default function Currency() {
       const info ={ from: from, to: to, amount: amount, date: date, result: result };
       setValue(info)
     }
-
     convert();
-
   }
-
 
   return (
     <>
@@ -92,7 +84,6 @@ export default function Currency() {
               <div className="btn">
                 <button onClick={handleCurrencyPrint} type='submit'>See Rate</button>
               </div>
-              
           </form>
           {/* Currency Form End */}
     </>

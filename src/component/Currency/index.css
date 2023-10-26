@@ -2,7 +2,7 @@ form{
     width: 40%;
     height: 500px;
     margin: 0 auto;
-    background: #2b2a2a;
+    background: #2b2a2abe;
     margin-top: 200px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -11,6 +11,8 @@ form{
     -o-border-radius: 10px;
     border: 1px solid #3a3a3a;
     padding: 50px;
+    backdrop-filter: blur(10px);
+
 }
 input,select,option{
     width: 100%;
